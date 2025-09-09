@@ -36,12 +36,6 @@ library-rental-system/
 g++ src/library_rental.cpp -o library
 ./library
 ```
-**At runtime, provide the file names**:
-```text
-Enter book filename : data/book.txt
-Enter person filename : data/person.txt
-```
-
 **After running, the program shows the menu**:
 ```text
 -----------------------------

@@ -193,11 +193,11 @@ int main() {
 
    // Read file and save data to library
    BookNode* library[3] = {NULL, NULL, NULL};
-   readBookFile("book.txt", library);
+   readBookFile("data/book.txt", library);
 
    // Read file and save data to person
     PersonNode* person[2] = {NULL, NULL};
-    readPersonFile("person.txt", person);
+    readPersonFile("data/person.txt", person);
 
    // Show the Menu
    int select;
